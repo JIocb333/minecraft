@@ -1,0 +1,291 @@
+html {background: #fff;}
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../fonts/os.ott) format(opentype);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../fonts/os_bold.ott) format(opentype);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../fonts/os_italic.ott) format(opentype);
+  font-weight: normal;
+  font-style: italic;
+}
+body{
+  margin: 0px;
+  font: normal 16px/24px 'roboto','open Sans', arial, helvetica, sans-seraf;
+}
+header {width: 100%;min-height: 188px}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
+p{
+  margin: 0;
+}
+menu{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.mainwrapper{
+  margin: 0 auto;
+  width: 100%;
+}
+.resize{
+  margin: 0 auto;
+  width: 980px;
+}
+header .top{
+  background: #37a14c;
+}
+header .bottom{
+  background: #37a14c;
+}
+header p{
+  font-size:  16px;
+  font-family: arial;
+  font-weight: normal;
+}
+header a
+{
+  font-size:  16px;
+  font-family: arial;
+  text-decoration: none;
+}
+.top li{
+  display: inline-block;
+
+}
+header .top a{
+  display: block;
+  width: 28px;
+  height: 28px;
+  text-decoration: none;
+  text-indent: -2000px;
+  overflow: hidden;
+}
+header .top p{
+  display: inline-block;
+  margin:  16px 0 16px 0;
+  color: #fff;
+}
+.vk{
+  margin: 14px 0 0 0;
+  background: url(../images/sprite.png) no-repeat;
+  background-position: -60px 0;
+}
+.fb{
+  background: url(../images/sprite.png) no-repeat;
+  background-position: 0 0;
+}
+.en{
+  background: url(../images/sprite.png) no-repeat;
+  background-position: -30px 0;
+}
+.midle .logo {
+  padding: 14px 0 10px 0;
+  margin: 0 38px 0 0
+}
+.contacts{
+  padding: 14px 0 10px 0;
+  width: 279px;
+}
+header .contacts p{
+  text-align: left;
+  color: #0f680e;
+}
+header .contacts a{
+  padding: 0 0 0 5px;
+  color: #0f680e;
+  font-size: 20px;
+  text-decoration: none;
+}
+header .contacts .skype{
+  color: #000;
+}
+header .contacts .skype a{
+  margin: 0 0 0 10px;
+  padding: 0 0 0 32px;
+  background: url(../images/s.png) no-repeat left center;
+  color: #1200ff;
+}
+header .midle .buttons a{
+  display: block;
+  margin: 11px 0px 11px 16px;
+  padding: 8px 0 0 0;
+  border: solid 1px;
+  border-radius: 5px;
+  border-bottom: 1px solid #293224;
+  border-top: 1px solid #f3ec19;
+  background: #fdce0a;
+   width: 136px ; height: 28px;
+   text-align: center;
+   text-decoration: none;
+   color: #fff;
+}
+header .midle .buttons a:hover{background: red}
+.bottom a:hover{ background: #41d05d}
+.logoR{
+  margin: 25px 0;
+}
+.bottom li{
+  display: inline-block;
+
+
+}
+.bottom a{
+  display: inline-block;
+  padding: 16px 0;
+  width: 194px;
+  color: #fff;
+  text-align: center;
+  border-left: 1px solid #247634;
+  border-right: 1px solid #57e974;
+}
+.bottom menu{
+  font-size: 0;
+}
+.content{
+  padding: 0 0 30px 0
+}
+.content aside li{
+  padding: 0 0 0 23px;
+  list-style: none;
+}
+.content aside p{
+  padding: 4px 0;
+  font-family: arial;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  }
+.content aside a{
+  text-decoration: none;
+  font-family: arial;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  color: red;
+}
+aside {
+  width: 228px;
+}
+main {
+  width: 736px;
+}
+.content main h1{
+  font-family: arial;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 24px;
+}
+.content main p{
+  font-family: arial;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+}
+.content main hr{
+  margin: 40px 0 28px 0;
+}
+.content main h2{
+  font-family: arial;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+}
+.content main .blok{
+  margin: 0 19px 0 19px;
+}
+.content main .sl{
+  box-sizing: border-box;
+  padding: 5px 8px 5px 8px;
+  width: 232px;
+  height: 90px;
+  background: #3aa74f;
+}
+.content main .sl h3{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+}
+.content main .sl p{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: normal;
+  color: white;
+}
+futer .top{
+  height: 96px;
+  background: #fac10a;
+}
+futer .top .pull-left{
+  padding: 15px 0 0 0;
+}
+futer .top p{
+  font-family: arial;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+futer .top .contacts p{
+  margin: 0;
+  font-family: arial;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  text-align: left;
+  color: black;
+}
+futer .top .contacts a{
+  padding: 0 0 0 5px;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+futer .midle{
+  height: 89px;
+  background: #3fa353;
+  box-sizing: border-box;
+  padding: 10px;
+}
+futer .midle img{padding: 0 47px 0 0}
+futer .midle .free{padding: 0}
+futer .bottom{
+  height: 57px;
+  background: white;
+  box-sizing: border-box;
+}
+futer .bottom p{
+  padding: 17px 0;
+  font-family: arial;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  color: black;
+}
